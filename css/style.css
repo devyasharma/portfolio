@@ -168,6 +168,9 @@ img {
   vertical-align: middle;
   border-style: none; }
 
+  .text .pro{
+    color: #73e05a;
+  }
 svg {
   overflow: hidden;
   vertical-align: middle; }
@@ -8171,6 +8174,12 @@ h1, h2, h3, h4, h5,
   left: 0;
   right: 0;
   z-index: 3; }
+  @media (max-width:420px) {
+    .ftco-about ul.about-info li span {
+      font-size: 12px;
+    }
+    
+  }
   @media (max-width: 991.98px) {
     .ftco-navbar-light {
       background: #000000 !important;
