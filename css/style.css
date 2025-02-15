@@ -8514,6 +8514,12 @@ h1, h2, h3, h4, h5,
     position: relative;
     height: 750px;
     z-index: 0; }
+    @media (max-width: 768px) {
+      .owl-carousel.home-slider{
+        height: 560px;
+      }
+      
+    }
     .owl-carousel.home-slider .slider-item {
       background-size: cover;
       background-repeat: no-repeat;
@@ -8637,7 +8643,7 @@ h1, h2, h3, h4, h5,
               font-size: 50px; } }
           @media (max-width: 767.98px) {
             .owl-carousel.home-slider .slider-item .slider-text h1 {
-              font-size: 40px; } }
+              font-size: 30px; } }
         .owl-carousel.home-slider .slider-item .slider-text h2 {
           font-size: 30px;
           font-weight: 400; }
