@@ -12,11 +12,9 @@
 @media (max-width:768px) {
     .owl-carousel,
 .owl-carousel .owl-item {
-    height: 550px;
+    height: 480px;
 }
-.owl-carousel.home-slider{
-    /* height: 600px; */
-}
+
     
 }
 
